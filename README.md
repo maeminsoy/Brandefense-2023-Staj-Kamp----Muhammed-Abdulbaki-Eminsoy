@@ -16,5 +16,8 @@ Resimdeki bilgiler doğrultusunda
 Reddit uygulaması user agent'ı <platform>:<app ID>:<version string> (by /u/<Reddit username>) bu formatta istiyor. Burdaki platform, app, version değerlerini kendimiz atayabiliyoruz. Ben bu şekilde bir atama yaptım.
 user agent'ımız: python:fetchposts:1.0 (by /u/Ok-Championship-7621)
 
+Bu bilgileri elde ettikten sonra kodumuzu çalıştırabiliriz.
 
-Bu bilgileri elde ettikten sonra kodumuzu çalıştırabiliriz...
+Dockerize edilmesi 
+"docker -t build image_name ." bu komut ile docker image'imizi oluştururuz.
+"docker run image_name" bu komut ile de docker image'imizi çalıştırız.
