@@ -22,4 +22,4 @@ Dockerize edilmesi
 "docker -t build image_name ." bu komut ile docker image'imizi oluştururuz.
 "docker run image_name" bu komut ile de docker image'imizi çalıştırırız.
 
-BUNLARI YAPMADAN ÖNCE docker.py FİLE İÇERİSİNDEKİ BİLGİLELRİNİZİ GÜNCELLEYİN.
+BUNLARI YAPMADAN ÖNCE docker.py FİLE İÇERİSİNDEKİ BİLGİLERİNİZİ GÜNCELLEYİN.
