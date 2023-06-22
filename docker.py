@@ -35,12 +35,12 @@ reddit = praw.Reddit(
 
 
 # Subreddit ismini kullanıcıdan aldık.
-subreddit_name = input("Postlarına bakmak istediğin subreddit ismini giriniz : ")
+subreddit_name = "Postlarına bakmak istediğin subreddit ismini giriniz : "
+
 
 # Kaç adet postu çekmek istediğini kullanıcadan alıp değeri çekiyoruz.
 subreddit = reddit.subreddit(subreddit_name)
-posts = subreddit.new(limit= int(input("Kaç adet post çekmek istiyorsunuz(maks:50)")))  
-
+posts = subreddit.new(limit= 10)
 # Postları iterasyon yapıp databasede depoluyoruz
 for post in posts:
     post_id = post.id
