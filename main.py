@@ -40,7 +40,7 @@ subreddit_name = input("Postlarına bakmak istediğin subreddit ismini giriniz :
 
 # Kaç adet postu çekmek istediğini kullanıcadan alıp değeri çekiyoruz.
 subreddit = reddit.subreddit(subreddit_name)
-posts = subreddit.new(limit= int(input("Kaç adet çekmek istiyorsunuz(maks:50)")))  
+posts = subreddit.new(limit= int(input("Kaç adet post çekmek istiyorsunuz(maks:50)")))  
 
 # Postları iterasyon yapıp databasede depoluyoruz
 for post in posts:
@@ -56,9 +56,9 @@ for post in posts:
     if existing_post is None:
         # eğer yoksa database'e insert yapıyoruz
         c.execute('INSERT INTO posts VALUES (?, ?, ?, ?)', (post_id, title, author, url))
-        print(f"New post added: {title}")
+        print(f"Yeni post eklendi: {title}")
     else:
-        print(f"Post already exists: {title}")
+        print(f"Post zaten mevcut: {title}")
 
 # değişiklikleri database commit ediyoruz
 conn.commit()
