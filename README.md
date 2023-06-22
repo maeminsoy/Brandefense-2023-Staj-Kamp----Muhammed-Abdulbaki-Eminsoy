@@ -10,3 +10,15 @@ Linke tıkladıktan sonra create application kısmında scripti seçiyoruz daha 
 Bu işlemleri tamamladıktan sonra create app seçeneğine basıp aşağıdaki resimdeki kısma geliyoruz buradan kullanıcı ile ilgili ihtiyacımız olan bilgileri elde ediyoruz. 
 ![image](https://github.com/maeminsoy/Brandefense-2023-Staj-Kamp----Muhammed-Abdulbaki-Eminsoy/assets/137301030/c59d4bda-3e25-43cb-a0dc-02aa92123a9a)
 
+Resimdeki bilgiler doğrultusunda 
+
+client id'miz : YSWQn9Qp_Q2Z0zK5rRSv3w 
+
+client secret'ımız: ixLJdxN-qqCePbDdr3AsI_VHYkZsEw 
+
+Reddit uygulaması user agent'ı <platform>:<app ID>:<version string> (by /u/<Reddit username>) bu formatta istiyor. Burdaki platform, app, version değerlerini kendimiz atayabiliyoruz. Ben bu şekilde bir atama yaptım.
+user agent'ımız: python:fetchposts:1.0 (by /u/Ok-Championship-7621)
+
+username'imiz: Ok-Championship-7621
+
+Bu bilgileri elde ettikten sonra kodumuzu çalıştırabiliriz...
